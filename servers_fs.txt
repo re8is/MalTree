@@ -1,0 +1,7 @@
+article,d,n,mat_enc_time,node_enc_time
+FeatureSelection: m=1, n=19 d=2, Times(ns): 4779
+FeatureSelection: m=3, n=13 d=3, Times(ns): 11361
+FeatureSelection: m=7, n=15 d=4, Times(ns): 24245
+FeatureSelection: m=127, n=9 d=8, Times(ns): 238266
+FeatureSelection: m=4095, n=13 d=13, Times(ns): 5200762
+FeatureSelection: m=65535, n=57 d=17, Times(ns): 243226640

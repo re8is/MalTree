@@ -1,0 +1,95 @@
+# client input preparation
+client_z22: d=2 n=19 time(ns): 98231
+client_z22: d=3 n=13 time(ns): 68866
+client_z22: d=4 n=15 time(ns): 108903
+client_z22: d=8 n=9 time(ns): 47594
+client_z22: d=13 n=13 time(ns): 64874
+client_z22: d=17 n=57 time(ns): 294228
+client_z23: d=2 n=19 time(ns): 94904
+client_z23: d=3 n=13 time(ns): 67248
+client_z23: d=4 n=15 time(ns): 79997
+client_z23: d=8 n=9 time(ns): 51544
+client_z23: d=13 n=13 time(ns): 67308
+client_z23: d=17 n=57 time(ns): 284311
+client_mine: d=2 n=19 time(ns): 94676
+client_mine: d=3 n=13 time(ns): 64420
+client_mine: d=4 n=15 time(ns): 75181
+client_mine: d=8 n=9 time(ns): 45841
+client_mine: d=13 n=13 time(ns): 64235
+client_mine: d=17 n=57 time(ns): 285863
+
+rec_z22: d=2: 878
+rec_z22: d=3: 1021
+rec_z22: d=4: 1261
+rec_z22: d=8: 4947
+rec_z22: d=13: 155396
+rec_z22: d=17: 3451268
+rec_z23: 30
+rec_mine: 25
+
+z22,2,19,96161,4205
+z23,2,19,97036,49
+Ours,2,19,103515,49
+z22,3,13,68194,1141
+z23,3,13,65952,52
+Ours,3,13,67958,47
+z22,4,15,79432,1409
+z23,4,15,74257,49
+Ours,4,15,75040,46
+z22,8,9,47652,6123
+z23,8,9,47238,51
+Ours,8,9,56142,47
+z22,13,13,65147,157820
+z23,13,13,65498,47
+Ours,13,13,65373,53
+z22,17,57,290742,3497536
+z23,17,57,289363,51
+Ours,17,57,289846,47
+
+
+
+# Provider Matrix Enc
+Z22: m=1, n=19, MatrixEncTime(ns): 97844
+Mine: m=1, n=19, MatrixEncTime(ns): 104396
+Z22: m=3, n=13, MatrixEncTime(ns): 211008
+Mine: m=3, n=13, MatrixEncTime(ns): 193514
+Z22: m=7, n=15, MatrixEncTime(ns): 536019
+Mine: m=7, n=15, MatrixEncTime(ns): 518426
+Z22: m=127, n=9, MatrixEncTime(ns): 6123268
+Mine: m=127, n=9, MatrixEncTime(ns): 5834054
+Z22: m=4095, n=13, MatrixEncTime(ns): 271713388
+Mine: m=4095, n=13, MatrixEncTime(ns): 272229521
+Z22: m=65535, n=57, MatrixEncTime(ns): 18710355406
+Mine: m=65535, n=57, MatrixEncTime(ns): 18686130630
+
+z23: m=1, n=19, IndexArrayEncTime(ns): 4847
+z23: m=3, n=13, IndexArrayEncTime(ns): 13853
+z23: m=7, n=15, IndexArrayEncTime(ns): 32820
+z23: m=127, n=9, IndexArrayEncTime(ns): 569653
+z23: m=4095, n=13, IndexArrayEncTime(ns): 18125131
+z23: m=65535, n=57, IndexArrayEncTime(ns): 289908848
+
+# Node Enc
+Z22: d=2 NodeEncTime(ns): 10646
+Mine: d=2 NodeEncTime(ns): 13631
+Z22: d=3 NodeEncTime(ns): 32001
+Mine: d=3 NodeEncTime(ns): 30785
+Z22: d=4 NodeEncTime(ns): 74029
+Mine: d=4 NodeEncTime(ns): 69866
+Z22: d=8 NodeEncTime(ns): 1263924
+Mine: d=8 NodeEncTime(ns): 1280054
+Z22: d=13 NodeEncTime(ns): 40358754
+Mine: d=13 NodeEncTime(ns): 40934900
+Z22: d=17 NodeEncTime(ns): 652159931
+Mine: d=17 NodeEncTime(ns): 649024259
+
+
+
+# Servers
+FeatureSelection: m=1, n=19 d=2, Times(ns): 4488
+FeatureSelection: m=3, n=13 d=3, Times(ns): 8285
+FeatureSelection: m=7, n=15 d=4, Times(ns): 16281
+FeatureSelection: m=127, n=9 d=8, Times(ns): 192529
+FeatureSelection: m=4095, n=13 d=13, Times(ns): 5371439
+FeatureSelection: m=65535, n=57 d=17, Times(ns): 203584288
+
